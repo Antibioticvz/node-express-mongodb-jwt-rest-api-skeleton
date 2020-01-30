@@ -2,7 +2,7 @@
 
 process.env.NODE_ENV = 'test'
 
-const User = require('../app/models/user')
+const User = require('../server/app/models/user')
 const faker = require('faker')
 const chai = require('chai')
 const chaiHttp = require('chai-http')
